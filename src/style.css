@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+--root{
+  --font1: 'Montserrat', sans-serif;
+  --font2: ''Bacasime Antique', serif'
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: aliceblue;
+}
+h1,h2,h3{
+  margin-top: 1rem;
+  font-family: 'Bacasime Antique', serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #3ab1c8;
+}
+ul,li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #f5ebeb;
+}
+.nav-bg{
+  background: #3ab1c8;
+  color: #070f4e;
+}
+.nav-bg:hover{
+  color: #f5ebeb;
+}
+a:active{
+  color: #f5ebeb;
+}
+.col-bg{
+  background: #3ab1c8;
+}
+.edu,h1,h2,h3{
+  color: #070f4e;
+}
+.skills,ul,li{
+  background: #3ab1c8;
+}
